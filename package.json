@@ -1,0 +1,14 @@
+{
+  "name": "blogview-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "blogview",
+    "push": "gimonfu push",
+    "pull": "gimonfu pull"
+  },
+  "devDependencies": {
+    "@mkizka/blogview": "^0.1.0",
+    "gimonfu": "^0.2.2"
+  }
+}
