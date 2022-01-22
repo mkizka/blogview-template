@@ -29,8 +29,6 @@ pnpm push
 
 ## GitHub Actions から記事を自動投稿する
 
-リポジトリに変更をプッシュした際に記事を投稿するには、`.github/workflows`以下にある`push.yml.example`を`push.yml`にリネームします。
-
-```
-$ mv .github/workflows/push.yml.example .github/workflows/push.yml
-```
+1. gimonfu.json の内容を`GIMONFU_JSON`という名前で GitHub の Secrets に登録
+2. `.github/workflows`以下にある`push.yml.example`を`push.yml`にリネーム
+3. `push.yml`をコミットしてプッシュ
